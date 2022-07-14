@@ -1,0 +1,289 @@
+[
+  {
+    "description": "  Everybody wants to know when it's Friday",
+    "elements": [
+      {
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Today is or is not Friday",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "today is \"Friday\"",
+            "match": {
+              "location": "test-scripts/features/step-definitions/steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 181999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ask whether it's Friday yet",
+            "match": {
+              "location": "test-scripts/features/step-definitions/steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 29624
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"TGIF\"",
+            "match": {
+              "location": "test-scripts/features/step-definitions/steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 211167
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Today is or is not Friday",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "today is \"Sunday\"",
+            "match": {
+              "location": "test-scripts/features/step-definitions/steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 24917
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ask whether it's Friday yet",
+            "match": {
+              "location": "test-scripts/features/step-definitions/steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21749
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"Nope\"",
+            "match": {
+              "location": "test-scripts/features/step-definitions/steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "is-it-friday-yet?;today-is-or-is-not-friday",
+        "keyword": "Scenario Outline",
+        "line": 4,
+        "name": "Today is or is not Friday",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "today is \"anything else!\"",
+            "match": {
+              "location": "test-scripts/features/step-definitions/steps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16666
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I ask whether it's Friday yet",
+            "match": {
+              "location": "test-scripts/features/step-definitions/steps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should be told \"Invalid Day\"",
+            "match": {
+              "location": "test-scripts/features/step-definitions/steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 25457
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "is-it-friday-yet?;i-made-my-own-calculator",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "I made my own calculator",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "Number 1",
+            "match": {
+              "location": "test-scripts/features/step-definitions/calculator-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "And Number 2",
+            "match": {
+              "location": "test-scripts/features/step-definitions/calculator-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 109124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I ask to add these numbers",
+            "match": {
+              "location": "test-scripts/features/step-definitions/calculator-steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 26083
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should get 3",
+            "match": {
+              "location": "test-scripts/features/step-definitions/calculator-steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 165542
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "is-it-friday-yet?;i-made-my-own-calculator",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "I made my own calculator",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "Number 1",
+            "match": {
+              "location": "test-scripts/features/step-definitions/calculator-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "And Number 2",
+            "match": {
+              "location": "test-scripts/features/step-definitions/calculator-steps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I ask to add these numbers",
+            "match": {
+              "location": "test-scripts/features/step-definitions/calculator-steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6583
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I should get 3",
+            "match": {
+              "location": "test-scripts/features/step-definitions/calculator-steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 23542
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "is-it-friday-yet?",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Is it Friday yet?",
+    "tags": [],
+    "uri": "test-scripts/features/is_it_friday_yet.feature"
+  }
+]
