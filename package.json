@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cucumber-js test-scripts/features/*.feature"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cucumber/cucumber": "^8.4.0"
+    "@cucumber/cucumber": "^8.4.0",
+    "chai": "^4.3.6"
   }
 }
