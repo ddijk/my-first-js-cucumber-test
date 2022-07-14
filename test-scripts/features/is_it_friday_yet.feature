@@ -11,3 +11,14 @@ Feature: Is it Friday yet?
       | Friday         | TGIF   |
       | Sunday         | Nope   |
       | anything else! | Invalid Day   |
+
+  Scenario Outline: I made my own calculator
+    Given Number 1 
+    And And Number 2 
+    When I ask to add these numbers
+    Then I should get 3
+
+    Examples:
+      | number1 | number2   | answer |
+      | 1       | 2         | 3   |
+      | 2       | 2         | 3   |
